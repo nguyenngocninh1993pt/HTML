@@ -1,0 +1,51 @@
+/* POPPINS FONT */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Cái này để lấy font Poppins từ google, dùng cách thức import*/
+*{  /* Cái này để CSS chung cho toàn trang */ 
+    margin: 0;    /* Cái này để chỉnh margin */
+    padding: 0;   /* Cái này để chỉnh padding */
+    box-sizing: border-box; /* Cái này để cho toàn bộ vào 1 box */
+    font-family: 'Poppins', sans-serif;  /* Khi đã import font google vào thì đặt theo font đó */
+}
+body{
+    background-color: var(--second-color);
+}
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--second-color);
+}
+.card{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 5);
+}
+.card-header-image{
+    width: 100%;
+    border-radius: 12px;
+}
+.card-content{
+    text-align: center;
+    margin: 20px;
+}
+.card-title{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+.card-description{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    max-width: 300px;
+    
+}
